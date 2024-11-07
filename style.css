@@ -1,0 +1,54 @@
+.content {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 240px;
+  height: 240px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color:rgba(153, 93, 181, 1);
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.card1{
+  width: 50px;
+  height: 50px;
+  background-color: rgba(247, 148, 31, 1);
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.box2{
+    flex-direction: column;
+}
+
+.box3{
+    flex-wrap: wrap;
+}
+
+.box4{
+    justify-content: space-between;
+}
+
+.box6{
+    justify-content: flex-end;
+}
+
+.box7{
+    justify-content: center;
+}
+
+.box10{
+    align-items: end;
+}
+
+.box11{
+    align-items: center;
+}
